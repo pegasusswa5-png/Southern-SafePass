@@ -1,0 +1,6 @@
+{
+  "name": "Southern SafePass",
+  "description": "Southern SafePass - แพลตฟอร์มช่วยเหลือการท่องเที่ยวใน 3 จังหวัดชายแดนภาคใต้ (ยะลา ปัตตานี นราธิวาส) อย่างปลอดภัยและสะดวกสบาย พัฒนาโดยทีม Pegasus โรงเรียนสามารถดีวิทยา",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
