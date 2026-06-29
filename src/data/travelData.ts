@@ -4,6 +4,9 @@
  */
 
 import { TravelPlace, MerchantShop, PricingPackage } from '../types';
+import krasaengCaveImg from '../assets/images/krasaeng_cave_1782727121397.jpg';
+import wadiMosqueImg from '../assets/images/wadi_mosque_1782727139412.jpg';
+import khaeKhaeBeachImg from '../assets/images/khae_khae_beach_1782727155743.jpg';
 
 export const travelPlaces: TravelPlace[] = [
   {
@@ -23,7 +26,7 @@ export const travelPlaces: TravelPlace[] = [
       en: 'A hidden limestone cave in Bannang Sata where a clear stream flows right through. Adventure inside to see magnificent stalactites and feel the raw, cool natural breeze.',
       ms: 'Gua batu kapur tersembunyi di daerah Bannang Sata dengan aliran sungai jernih mengalir di dalamnya. Nikmati keindahan stalaktit dan bayu semula jadi yang menyegarkan.'
     },
-    image: '/src/assets/images/krasaeng_cave_1782727121397.jpg',
+    image: krasaengCaveImg,
     category: 'nature',
     isHalal: true,
     isCDT: false,
