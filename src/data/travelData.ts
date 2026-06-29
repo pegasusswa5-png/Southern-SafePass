@@ -290,7 +290,7 @@ export const merchantShops: MerchantShop[] = [
       en: 'Authentic Betong chicken with tender meat, crispy skin, special soy sauce, served with aromatic chicken-broth rice.',
       ms: 'Ayam Betong asli dengan daging lembut, kulit rangup, kicap khas, disajikan dengan nasi sup ayam yang aromatik.'
     },
-    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80', // Delicious chicken rice style
+    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80',
     province: 'Yala',
     isHalal: false,
     isPro: true,
@@ -317,7 +317,7 @@ export const merchantShops: MerchantShop[] = [
       en: 'Traditional 5-colored Southern rice salad with aromatic herbs, topped with rich seasoned Budu sauce and fresh local vegetables.',
       ms: 'Nasi kerabu tradisional 5 warna semulajadi dengan herba wangi, disiram kuah Budu pekat dan sayur-sayuran segar.'
     },
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80', // Vibrant healthy salad bowl
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80',
     province: 'Pattani',
     isHalal: true,
     isPro: true,
@@ -344,7 +344,7 @@ export const merchantShops: MerchantShop[] = [
       en: 'Sip signature Southern pulled tea (Teh Tarik) with crispy secret-recipe roti in a lush forest garden atmosphere.',
       ms: 'Nikmati Teh Tarik buih lembut berkrim dengan roti rangup resepi rahsia di dalam suasana taman rimba yang rimbun.'
     },
-    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=500&q=80', // Elegant garden cafe
+    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=500&q=80',
     province: 'Pattani',
     isHalal: true,
     isPro: true,
@@ -357,27 +357,194 @@ export const merchantShops: MerchantShop[] = [
   {
     id: 'm4',
     name: {
-      th: 'กลุ่มสตรีหัตถกรรมบาติกบ้านดาโต๊ะ',
-      en: 'Ban Dato Batik Handicraft',
-      ms: 'Kraftangan Batik Ban Dato'
+      th: 'นาซีดากัง ยาเซ็ง นราธิวาส (Yaceng Nasi Dagang)',
+      en: 'Yaceng Nasi Dagang Narathiwat',
+      ms: 'Nasi Dagang Yaceng Narathiwat'
     },
     type: {
-      th: 'ของฝากและหัตถกรรม',
-      en: 'Souvenirs & Crafts',
-      ms: 'Cenderamata & Kraf'
+      th: 'อาหารและเครื่องดื่ม',
+      en: 'Food & Beverage',
+      ms: 'Makanan & Minuman'
     },
     description: {
-      th: 'ผ้าบาติกเขียนมือและพิมพ์บล็อกไม้ลวดลายทะเลและพรรณไม้ใต้น้ำอันวิจิตรสะท้อนเอกลักษณ์วัฒนธรรมปัตตานี',
-      en: 'Exquisite hand-drawn and woodblock-printed batik fabrics with marine and floral motifs unique to Pattani coastal culture.',
-      ms: 'Kain batik lukis tangan dan cetakan blok kayu dengan motif marin dan flora yang unik mencerminkan budaya pantai Pattani.'
+      th: 'ข้าวมันแกงปลาหรือไก่สูตรโบราณของนราธิวาส ข้าวขัดสีกุหลาบหุงผสมสมุนไพรรสชาติเข้มข้น หอมมันด้วยกะทิสดแท้',
+      en: 'Ancient recipe of steamed rice in coconut milk served with rich fish or chicken curry. Popular local breakfast specialty.',
+      ms: 'Resipi kuno nasi kukus lemak yang disajikan dengan kari ikan atau ayam pekat. Makanan sarapan tempatan yang sangat popular.'
     },
-    image: 'https://images.unsplash.com/photo-1528255671579-01b9e182ed1d?auto=format&fit=crop&w=500&q=80', // Artistic fabrics / coloring
-    province: 'Pattani',
+    image: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?auto=format&fit=crop&w=500&q=80',
+    province: 'Narathiwat',
     isHalal: true,
-    isPro: false
+    isPro: true,
+    discountBadge: {
+      th: 'รับน้ำชาชักร้อนสูตรปักษ์ใต้ ฟรี 1 แก้ว!',
+      en: 'Free 1 Hot Teh Tarik with any Nasi Dagang!',
+      ms: 'Percuma 1 Teh Tarik Panas dengan setiap pembelian Nasi Dagang!'
+    }
   },
   {
     id: 'm5',
+    name: {
+      th: 'เฉาก๊วย กม.4 เบตง ยะลา (วุ้นดำโบราณ)',
+      en: 'Betong KM4 Grass Jelly Yala',
+      ms: 'Cincau Betong KM4 Yala'
+    },
+    type: {
+      th: 'ขนมหวานและเครื่องดื่ม',
+      en: 'Desserts & Drinks',
+      ms: 'Pencuci Mulut & Minuman'
+    },
+    description: {
+      th: 'เฉาก๊วยดำแท้ต้มเตาถ่านสูตรโบราณกว่า 50 ปี หอมกลิ่นสมุนไพรจีน เนื้อเหนียวนุ่มหนึบหนับ หวานเย็นชื่นใจคลายร้อน',
+      en: 'Legendary 50-year-old wood-fired grass jelly. Highly aromatic with Chinese herbs, soft and chewy texture, served ice cold.',
+      ms: 'Cincau hitam asli yang dimasak dengan dapur arang resepi legenda 50 tahun. Harum herba Cina, tekstur kenyal dan menyegarkan.'
+    },
+    image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=500&q=80',
+    province: 'Yala',
+    isHalal: true,
+    isPro: true,
+    discountBadge: {
+      th: 'ซื้อเฉาก๊วยกลับบ้าน 5 ถ้วย แถมฟรี 1 ถ้วย!',
+      en: 'Buy 5 takeaway cups, get 1 cup FREE!',
+      ms: 'Beli 5 cawan bawa pulang, percuma 1 cawan!'
+    }
+  },
+  {
+    id: 'm6',
+    name: {
+      th: 'ติ่มซำแต้เฮง ฮาลาล เบตง',
+      en: 'Tae Heng Halal Dim Sum Betong',
+      ms: 'Dim Sum Halal Tae Heng Betong'
+    },
+    type: {
+      th: 'อาหารและเครื่องดื่ม',
+      en: 'Food & Beverage',
+      ms: 'Makanan & Minuman'
+    },
+    description: {
+      th: 'ติ่มซำนึ่งสดใหม่แบบฮาลาล ซาลาเปาแป้งนุ่ม ขนมจีบกุ้งแน่นๆ และชากลั่นเบตงโบราณ เสิร์ฟร้อนๆ ยามเช้าในสไตล์จีนดั้งเดิม',
+      en: 'Freshly steamed local Halal dim sum, fluffy buns, plump shrimp shumai, and traditional brewed Betong tea served hot in Chinese style.',
+      ms: 'Dim sum Halal dikukus segar, bao lembut, shumai udang padat, dan teh cina Betong tradisional disajikan panas di pagi hari.'
+    },
+    image: 'https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=500&q=80',
+    province: 'Yala',
+    isHalal: true,
+    isPro: true,
+    discountBadge: {
+      th: 'ลด 10% เมื่อรับประทานอาหารครบ 400 บาท',
+      en: '10% off when spending 400 THB or more!',
+      ms: 'Diskaun 10% apabila berbelanja melebihi 400 THB!'
+    }
+  },
+  {
+    id: 'm7',
+    name: {
+      th: 'ก๋วยเตี๋ยวเนื้อต้มยำโบราณ แบดาร์ ปัตตานี',
+      en: 'Bae Dar Beef Noodle Pattani',
+      ms: 'Mee Daging Bae Dar Pattani'
+    },
+    type: {
+      th: 'อาหารและเครื่องดื่ม',
+      en: 'Food & Beverage',
+      ms: 'Makanan & Minuman'
+    },
+    description: {
+      th: 'ก๋วยเตี๋ยวเนื้อต้มยำสูตรเด็ดรสชาติเข้มข้นจัดจ้าน เนื้อเปื่อยนุ่มละลายในปาก และลูกชิ้นเนื้อโฮมเมดสูตรฮาลาลยอดนิยม',
+      en: 'Superb spicy beef tom yum noodles with extremely tender braised beef melting in your mouth and signature homemade Halal meatballs.',
+      ms: 'Mee tom yum daging pedas berkrim dengan daging rebus lembut cair di mulut dan bebola daging buatan sendiri yang halal.'
+    },
+    image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80',
+    province: 'Pattani',
+    isHalal: true,
+    isPro: true,
+    discountBadge: {
+      th: 'แถมฟรีแคบวัวกรอบ 1 ถ้วย เมื่อสั่งชามพิเศษ',
+      en: 'Free crispy beef cracklings cup on Special Bowl!',
+      ms: 'Percuma keropok kulit lembu rangup dengan mangkuk Khas!'
+    }
+  },
+  {
+    id: 'm8',
+    name: {
+      th: 'อาดัม ข้าวมันแกง นราธิวาส',
+      en: 'Adam Curry Rice Narathiwat',
+      ms: 'Nasi Kari Adam Narathiwat'
+    },
+    type: {
+      th: 'อาหารและเครื่องดื่ม',
+      en: 'Food & Beverage',
+      ms: 'Makanan & Minuman'
+    },
+    description: {
+      th: 'ร้านข้าวมันแกงรสชาติเข้มข้น ข้าวมันหุงใบเตยหอม เสิร์ฟพร้อมแกงเนื้อหรือแกงไก่สูตรเครื่องเทศใต้รสเข้มข้น ทานเคียงกับน้ำพริกหวาน',
+      en: 'Fragrant pandan coconut rice served with rich, aromatic Southern beef or chicken curry and authentic sweet sambal sauce.',
+      ms: 'Nasi lemak pandan disajikan dengan kari daging atau ayam rempah ratus Selatan yang pekat bersama sambal manis.'
+    },
+    image: 'https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&w=500&q=80',
+    province: 'Narathiwat',
+    isHalal: true,
+    isPro: true,
+    discountBadge: {
+      th: 'ส่วนลด 5 บาท ทันทีเมื่อแสดงหน้าแอป SafePass',
+      en: '5 THB instant discount when showing SafePass app!',
+      ms: 'Diskaun segera 5 THB apabila menunjukkan aplikasi SafePass!'
+    }
+  },
+  {
+    id: 'm9',
+    name: {
+      th: 'ร้านน้ำชาโบราณ ชาชักพระราม 9 ยะลา',
+      en: 'Rama IX Teh Tarik Cafe Yala',
+      ms: 'Kedai Teh Tarik Rama IX Yala'
+    },
+    type: {
+      th: 'คาเฟ่และเบเกอรี่',
+      en: 'Café & Bakery',
+      ms: 'Kafe & Bakeri'
+    },
+    description: {
+      th: 'แหล่งรวมตัวสภากาแฟยามค่ำ ชิมชาชักรสชาติต้นตำรับที่ฟองฟูนุ่ม ชื่นใจ คลอเคลียกับโรตีระเบิดกรอบนอกนุ่มในสอดไส้นมเนยแบบล้นๆ',
+      en: 'A vibrant evening tea cafe. Experience signature super-frothy Teh Tarik paired with overflowing sweet condensed milk and butter crispy roti.',
+      ms: 'Kafe teh tarik malam yang meriah. Nikmati Teh Tarik buih tebal dengan roti bom manis mentega susu pekat melimpah.'
+    },
+    image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=500&q=80',
+    province: 'Yala',
+    isHalal: true,
+    isPro: true,
+    discountBadge: {
+      th: 'ฟรี โรตีธรรมดา 1 จาน เมื่อสั่งเครื่องดื่มชาชักครบ 4 แก้ว',
+      en: 'Get 1 Free Classic Roti when ordering 4 Teh Tarik drinks!',
+      ms: 'Percuma 1 Roti Klasik dengan setiap pembelian 4 gelas Teh Tarik!'
+    }
+  },
+  {
+    id: 'm10',
+    name: {
+      th: 'กาแฟคั่วบดบุหงาราหนี ปัตตานี',
+      en: 'Bunga Rani Specialty Coffee Pattani',
+      ms: 'Kopi Bunga Rani Specialty Pattani'
+    },
+    type: {
+      th: 'คาเฟ่และเบเกอรี่',
+      en: 'Café & Bakery',
+      ms: 'Kafe & Bakeri'
+    },
+    description: {
+      th: 'คาเฟ่กาแฟพิเศษคัดสรรเมล็ดกาแฟโรบัสต้าท้องถิ่น คั่วบดด้วยความใส่ใจ ดึงกลิ่นรสชาติช็อกโกแลตและเครื่องเทศอันเป็นเอกลักษณ์ของปักษ์ใต้',
+      en: 'Specialty coffee shop showcasing premium local Southern Robusta beans expertly roasted, bringing out rich chocolate and subtle spice notes.',
+      ms: 'Kafe kopi istimewa menawarkan biji kopi Robusta Selatan premium yang dipanggang sempurna, menghasilkan rasa coklat dan rempah yang unik.'
+    },
+    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80',
+    province: 'Pattani',
+    isHalal: true,
+    isPro: true,
+    discountBadge: {
+      th: 'รับคูปองส่วนลด 15% สำหรับสั่งซื้อเมล็ดกาแฟคั่ว',
+      en: '15% discount coupon on roasted coffee bean packs!',
+      ms: 'Kupon diskaun 15% untuk pembelian pek biji kopi panggang!'
+    }
+  },
+  {
+    id: 'm11',
     name: {
       th: 'ข้าวเกรียบปลาหลังเขียวบ้านทอน (กะโป๊ะ)',
       en: 'Ban Thon Fish Crackers (Keropok)',
@@ -393,7 +560,7 @@ export const merchantShops: MerchantShop[] = [
       en: 'Fresh local fish crackers made of ocean-caught fish, sun-dried and fried to a perfect crispy puff. Crispy, delicious, with traditional sweet chili dip.',
       ms: 'Keropok keping ikan segar dari laut, dijemur dan digoreng rangup kembang. Nikmat dengan sos pencicah manis tradisional.'
     },
-    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=80', // Golden crispy snacks
+    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=80',
     province: 'Narathiwat',
     isHalal: true,
     isPro: true,
