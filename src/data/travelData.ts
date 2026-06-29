@@ -59,7 +59,7 @@ export const travelPlaces: TravelPlace[] = [
       en: 'An ancient wooden mosque constructed entirely from ironwood without using a single nail. Features an exquisite, historical fusion of Thai, Chinese, and Malay architectural craftsmanship.',
       ms: 'Masjid kayu kuno yang dibina sepenuhnya daripada kayu cengal tanpa menggunakan sebatang paku pun. Memaparkan gabungan seni bina Thai, Cina, dan Melayu yang unik serta bernilai sejarah.'
     },
-    image: '/src/assets/images/wadi_mosque_1782727139412.jpg',
+    image: wadiMosqueImg,
     category: 'religion',
     isHalal: true,
     isCDT: true,
@@ -125,7 +125,7 @@ export const travelPlaces: TravelPlace[] = [
       en: 'A hidden beach tucked away, featuring unique rock formations contrasting with fine golden sand and deep blue waves. One of the most serene and photographic sunrise spots.',
       ms: 'Pantai tersembunyi yang sunyi, menampilkan formasi batu unik yang kontras dengan pasir keemasan dan ombak laut biru. Salah satu tempat matahari terbit yang paling tenang.'
     },
-    image: '/src/assets/images/khae_khae_beach_1782727155743.jpg',
+    image: khaeKhaeBeachImg,
     category: 'nature',
     isHalal: true,
     isCDT: false,
