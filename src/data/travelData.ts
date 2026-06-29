@@ -9,9 +9,9 @@ export const travelPlaces: TravelPlace[] = [
   {
     id: '1',
     name: {
-      th: 'สกายวอล์คทะเลหมอกอัยเยอร์เวง',
-      en: 'Ayerweng Skywalk',
-      ms: 'Skywalk Awan Ayerweng'
+      th: 'ถ้ำกระแชง บันนังสตา',
+      en: 'Krasaeng Cave Bannang Sata',
+      ms: 'Gua Krasaeng Bannang Sata'
     },
     province: {
       th: 'ยะลา',
@@ -19,98 +19,32 @@ export const travelPlaces: TravelPlace[] = [
       ms: 'Yala'
     },
     description: {
-      th: 'สัมผัสทะเลหมอกที่สวยงามที่สุดในภาคใต้บนทางเดินกระจกใสที่ยื่นยาวออกไป มีหมอกให้ชมตลอดทั้งปี ท่ามกลางธรรมชาติที่สมบูรณ์',
-      en: 'Experience the most beautiful sea of mist in the South on a transparent glass skywalk. Stunning mist is visible all year round.',
-      ms: 'Saksikan laut awan yang paling indah di Selatan di atas jambatan kaca telus. Kabus tebal boleh dilihat sepanjang tahun.'
+      th: 'ถ้ำหินปูนลับในอำเภอบันนังสตา ที่มีลำธารน้ำใสไหลลอดผ่านถ้ำตลอดปี สามารถพายเรือคายัคหรือเดินลุยน้ำชมหินงอกหินย้อยอันงดงามและสัมผัสความเย็นสบายท่ามกลางธรรมชาติอันบริสุทธิ์',
+      en: 'A hidden limestone cave in Bannang Sata where a clear stream flows right through. Adventure inside to see magnificent stalactites and feel the raw, cool natural breeze.',
+      ms: 'Gua batu kapur tersembunyi di daerah Bannang Sata dengan aliran sungai jernih mengalir di dalamnya. Nikmati keindahan stalaktit dan bayu semula jadi yang menyegarkan.'
     },
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80', // Beautiful scenic landscape
+    image: '/src/assets/images/krasaeng_cave_1782727121397.jpg',
     category: 'nature',
     isHalal: true,
     isCDT: false,
     dressCode: 'casual',
     openingHours: {
-      th: '05:00 - 16:30 น.',
-      en: '05:00 AM - 04:30 PM',
-      ms: '05:00 PG - 04:30 PTG'
+      th: '08:30 - 16:30 น.',
+      en: '08:30 AM - 04:30 PM',
+      ms: '08:30 PG - 04:30 PTG'
     },
-    rating: 4.8,
-    reviewsCount: 1250,
+    rating: 4.7,
+    reviewsCount: 142,
     safetyIndex: 'high',
-    coordinates: { lat: 5.9765, lng: 101.1802 },
-    googleMapsUrl: 'https://maps.google.com/?q=Ayerweng+Skywalk+Yala'
+    coordinates: { lat: 6.2625, lng: 101.2721 },
+    googleMapsUrl: 'https://maps.google.com/?q=Krasaeng+Cave+Yala'
   },
   {
     id: '2',
     name: {
-      th: 'มัสยิดกลางจังหวัดปัตตานี',
-      en: 'Pattani Central Mosque',
-      ms: 'Masjid Jamek Pattani'
-    },
-    province: {
-      th: 'ปัตตานี',
-      en: 'Pattani',
-      ms: 'Pattani'
-    },
-    description: {
-      th: 'มัสยิดที่สวยงามที่สุดแห่งหนึ่งในไทย ได้รับฉายาว่า "ทัชมาฮาลเมืองไทย" เป็นศูนย์รวมจิตใจของชาวไทยมุสลิมในพื้นที่',
-      en: 'One of the most beautiful mosques in Thailand, nicknamed the "Taj Mahal of Thailand". A center of faith for local Muslims.',
-      ms: 'Salah satu masjid yang paling indah di Thailand, digelar "Taj Mahal Thailand". Pusat ibadah bagi umat Islam tempatan.'
-    },
-    image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80', // Beautiful Islamic architecture
-    category: 'religion',
-    isHalal: true,
-    isCDT: false,
-    dressCode: 'polite',
-    openingHours: {
-      th: '08:00 - 18:00 น.',
-      en: '08:00 AM - 06:00 PM',
-      ms: '08:00 PG - 06:00 PTG'
-    },
-    rating: 4.9,
-    reviewsCount: 840,
-    safetyIndex: 'high',
-    coordinates: { lat: 6.8625, lng: 101.2505 },
-    googleMapsUrl: 'https://maps.google.com/?q=Pattani+Central+Mosque'
-  },
-  {
-    id: '3',
-    name: {
-      th: 'ชุมชนท่องเที่ยววัฒนธรรมบาราโหม',
-      en: 'Barahom Cultural Community',
-      ms: 'Komuniti Budaya Barahom'
-    },
-    province: {
-      th: 'ปัตตานี',
-      en: 'Pattani',
-      ms: 'Pattani'
-    },
-    description: {
-      th: 'เรียนรู้วิถีชุมชนประวัติศาสตร์ สัมผัสอารยธรรมปัตตานีดารุสสลามโบราณ ทำกิจกรรมเพ้นท์ผ้าบาติก และล่องเรือชมป่าชายเลน',
-      en: 'Explore historical community life and ancient Pattani Darussalam civilization. Enjoy batik painting and mangrove boat tours.',
-      ms: 'Terokai kehidupan komuniti sejarah dan tamadun Pattani Darussalam kuno. Alami melukis batik dan menaiki bot bakau.'
-    },
-    image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80', // Community crafts / culture
-    category: 'culture',
-    isHalal: true,
-    isCDT: true,
-    dressCode: 'polite',
-    openingHours: {
-      th: '09:00 - 17:00 น.',
-      en: '09:00 AM - 05:00 PM',
-      ms: '09:00 PG - 05:00 PTG'
-    },
-    rating: 4.7,
-    reviewsCount: 310,
-    safetyIndex: 'high',
-    coordinates: { lat: 6.8912, lng: 101.2987 },
-    googleMapsUrl: 'https://maps.google.com/?q=Barahom+Pattani'
-  },
-  {
-    id: '4',
-    name: {
-      th: 'หมู่บ้านทอน และเรือกอและประดิษฐ์',
-      en: 'Ban Thon Fisherman Village',
-      ms: 'Kampung Nelayan Ban Thon'
+      th: 'มัสยิด 300 ปี วาดีลฮูเซ็น',
+      en: 'Wadi Al-Hussein 300-Year Mosque',
+      ms: 'Masjid 300 Tahun Wadi Al-Hussein'
     },
     province: {
       th: 'นราธิวาส',
@@ -118,65 +52,98 @@ export const travelPlaces: TravelPlace[] = [
       ms: 'Narathiwat'
     },
     description: {
-      th: 'หมู่บ้านชาวประมงไทยมุสลิมริมชายหาดอันเงียบสงบ แหล่งผลิตเรือกอและจำลองทำมือที่มีลวดลายวิจิตรสวยงามและเป็นเอกลักษณ์',
-      en: 'A peaceful Muslim fishing village on the beach, famous for handcrafting and painting miniature Kolek boats with traditional arts.',
-      ms: 'Kampung nelayan Melayu yang tenang di tepi pantai, terkenal dengan pembuatan dan lukisan bot Kolek miniatur yang berseni tradisional.'
+      th: 'มัสยิดไม้เก่าแก่โบราณสร้างจากไม้ตะเคียนทองทั้งหลังโดยไม่ใช้ตะปูแม้แต่ตัวเดียว โดดเด่นด้วยการประยุกต์และผสมผสานศิลปะสถาปัตยกรรมไทย จีน และมลายูอย่างประณีตและทรงคุณค่าทางประวัติศาสตร์',
+      en: 'An ancient wooden mosque constructed entirely from ironwood without using a single nail. Features an exquisite, historical fusion of Thai, Chinese, and Malay architectural craftsmanship.',
+      ms: 'Masjid kayu kuno yang dibina sepenuhnya daripada kayu cengal tanpa menggunakan sebatang paku pun. Memaparkan gabungan seni bina Thai, Cina, dan Melayu yang unik serta bernilai sejarah.'
     },
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80', // Coastal artisan village
-    category: 'culture',
+    image: '/src/assets/images/wadi_mosque_1782727139412.jpg',
+    category: 'religion',
     isHalal: true,
     isCDT: true,
-    dressCode: 'casual',
-    openingHours: {
-      th: '08:30 - 17:00 น.',
-      en: '08:30 AM - 05:00 PM',
-      ms: '08:30 PG - 05:00 PTG'
-    },
-    rating: 4.6,
-    reviewsCount: 195,
-    safetyIndex: 'high',
-    coordinates: { lat: 6.4952, lng: 101.7584 },
-    googleMapsUrl: 'https://maps.google.com/?q=Ban+Thon+Village+Narathiwat'
-  },
-  {
-    id: '5',
-    name: {
-      th: 'วัดเขากง (พระพุทธทักษิณมิ่งมงคล)',
-      en: 'Wat Khao Kong (Phra Phuttha Thaksin)',
-      ms: 'Wat Khao Kong (Buddha Emas)'
-    },
-    province: {
-      th: 'นราธิวาส',
-      en: 'Narathiwat',
-      ms: 'Narathiwat'
-    },
-    description: {
-      th: 'ประดิษฐานพระพุทธรูปปางปฐมเทศนาองค์ใหญ่ที่สุดในภาคใต้ ประดับด้วยโมเสกสีทองสะท้อนแสงอร่าม งดงามโดดเด่นท่ามกลางหุบเขา',
-      en: 'Enshrines the largest golden Buddha statue in southern Thailand, adorned in beautiful golden mosaics, standing tall on the hill.',
-      ms: 'Menempatkan patung Buddha emas terbesar di selatan Thailand, dihiasi dengan mozek emas yang berkilauan di atas bukit.'
-    },
-    image: 'https://images.unsplash.com/photo-1540959733332-eab4deceeaf7?auto=format&fit=crop&w=800&q=80', // Golden sacred statue
-    category: 'religion',
-    isHalal: false,
-    isCDT: false,
     dressCode: 'polite',
     openingHours: {
       th: '08:00 - 17:00 น.',
       en: '08:00 AM - 05:00 PM',
       ms: '08:00 PG - 05:00 PTG'
     },
-    rating: 4.8,
-    reviewsCount: 520,
+    rating: 4.9,
+    reviewsCount: 235,
     safetyIndex: 'high',
-    coordinates: { lat: 6.4021, lng: 101.7854 },
-    googleMapsUrl: 'https://maps.google.com/?q=Wat+Khao+Kong+Narathiwat'
+    coordinates: { lat: 6.2644, lng: 101.5163 },
+    googleMapsUrl: 'https://maps.google.com/?q=Wadi+Al-Hussein+Mosque+Narathiwat'
   },
   {
-    id: '6',
+    id: '3',
     name: {
-      th: 'อุโมงค์ปิยะมิตร เบตง',
-      en: 'Piyamit Tunnel Betong',
-      ms: 'Terowong Piyamit Betong'
+      th: 'ผานับดาว สุคิริน',
+      en: 'Pha Nab Dao Sukhirin',
+      ms: 'Puncak Pha Nab Dao Sukhirin'
+    },
+    province: {
+      th: 'นราธิวาส',
+      en: 'Narathiwat',
+      ms: 'Narathiwat'
+    },
+    description: {
+      th: 'จุดชมวิวบนยอดเขาสูงในอำเภอสุคิริน ท่ามกลางเทือกเขาอันอุดมสมบูรณ์ ตอนเช้าชมทะเลหมอกหนานุ่มแบบพาโนรามา 360 องศา ส่วนตอนกลางคืนสามารถนอนนับดาวยิบยับละลานตาเต็มผืนฟ้ายามค่ำคืน',
+      en: 'A spectacular peak in the scenic Sukhirin district. Watch a thick 360-degree sea of mist in the morning and count countless sparkling stars in the pitch-black night sky.',
+      ms: 'Puncak pemandangan indah di daerah Sukhirin. Saksikan lautan awan 360 darjah pada waktu pagi dan nikmati jutaan bintang berkilauan pada waktu malam yang gelap.'
+    },
+    image: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&w=800&q=80',
+    category: 'nature',
+    isHalal: true,
+    isCDT: false,
+    dressCode: 'casual',
+    openingHours: {
+      th: 'เปิด 24 ชั่วโมง',
+      en: 'Open 24 Hours',
+      ms: 'Buka 24 Jam'
+    },
+    rating: 4.8,
+    reviewsCount: 98,
+    safetyIndex: 'high',
+    coordinates: { lat: 5.9412, lng: 101.7684 },
+    googleMapsUrl: 'https://maps.google.com/?q=Pha+Nab+Dao+Sukhirin'
+  },
+  {
+    id: '4',
+    name: {
+      th: 'หาดแฆแฆ ปัตตานี',
+      en: 'Khae Khae Beach Pattani',
+      ms: 'Pantai Khae Khae Pattani'
+    },
+    province: {
+      th: 'ปัตตานี',
+      en: 'Pattani',
+      ms: 'Pattani'
+    },
+    description: {
+      th: 'ชายหาดลับที่ซ่อนตัวอยู่อย่างเงียบสงบ มีโขดหินรูปทรงแปลกตาตั้งเรียงรายตัดกับผืนทรายสีทองละเอียดและเกลียวคลื่นน้ำทะเลสีคราม เป็นจุดพักผ่อนและชมแสงแรกของวันท่ามกลางความสงบ',
+      en: 'A hidden beach tucked away, featuring unique rock formations contrasting with fine golden sand and deep blue waves. One of the most serene and photographic sunrise spots.',
+      ms: 'Pantai tersembunyi yang sunyi, menampilkan formasi batu unik yang kontras dengan pasir keemasan dan ombak laut biru. Salah satu tempat matahari terbit yang paling tenang.'
+    },
+    image: '/src/assets/images/khae_khae_beach_1782727155743.jpg',
+    category: 'nature',
+    isHalal: true,
+    isCDT: false,
+    dressCode: 'casual',
+    openingHours: {
+      th: 'เปิด 24 ชั่วโมง',
+      en: 'Open 24 Hours',
+      ms: 'Buka 24 Jam'
+    },
+    rating: 4.6,
+    reviewsCount: 112,
+    safetyIndex: 'high',
+    coordinates: { lat: 6.6432, lng: 101.5541 },
+    googleMapsUrl: 'https://maps.google.com/?q=Khae+Khae+Beach+Pattani'
+  },
+  {
+    id: '5',
+    name: {
+      th: 'เกาะทวด เขื่อนบางลาง',
+      en: 'Koh Tuad Bang Lang Dam',
+      ms: 'Pulau Koh Tuad Empangan Bang Lang'
     },
     province: {
       th: 'ยะลา',
@@ -184,32 +151,32 @@ export const travelPlaces: TravelPlace[] = [
       ms: 'Yala'
     },
     description: {
-      th: 'อุโมงค์ดินประวัติศาสตร์ที่ขุดเจาะโดยกองกำลังพรรคคอมมิวนิสต์มลายาในอดีต ซ่อนตัวอยู่ในผืนป่าทึบเบตงอันร่มรื่น',
-      en: 'A historic earth tunnel dug by the Malayan Communist Party, hidden inside the lush and green forest of Betong.',
-      ms: 'Terowong tanah bersejarah yang digali oleh Parti Komunis Malaya, tersembunyi di dalam hutan Betong yang subur.'
+      th: 'เกาะขนาดเล็กน่าค้นหาที่ลอยเด่นอยู่ใจกลางอ่างเก็บน้ำบางลาง โอบล้อมด้วยผืนป่าฮาลาบาลาและเทือกเขา ประดิษฐานหลวงปู่ทวดอันศักดิ์สิทธิ์ที่ผู้คนนิยมล่องเรือหางยาวมากราบไหว้เพื่อความเป็นสิริมงคล',
+      en: 'A small, captivating island floating in the heart of Bang Lang Dam, surrounded by Hala-Bala forest. Home to a sacred shrine of Luang Phu Thuad, accessible by local longtail boat.',
+      ms: 'Pulau kecil yang menarik terapung di tengah-tengah Empangan Bang Lang, dikelilingi oleh hutan Hala-Bala. Menempatkan kuil suci Luang Phu Thuad, boleh dilawati dengan bot panjang.'
     },
-    image: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=800&q=80', // Historic forest tunnel
-    category: 'culture',
+    image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
+    category: 'nature',
     isHalal: true,
-    isCDT: false,
-    dressCode: 'casual',
+    isCDT: true,
+    dressCode: 'polite',
     openingHours: {
-      th: '08:00 - 16:30 น.',
-      en: '08:00 AM - 04:30 PM',
-      ms: '08:00 PG - 04:30 PTG'
+      th: '07:00 - 17:00 น.',
+      en: '07:00 AM - 05:00 PM',
+      ms: '07:00 PG - 05:00 PTG'
     },
     rating: 4.7,
-    reviewsCount: 680,
+    reviewsCount: 85,
     safetyIndex: 'high',
-    coordinates: { lat: 5.9234, lng: 101.0345 },
-    googleMapsUrl: 'https://maps.google.com/?q=Piyamit+Tunnel+Betong'
+    coordinates: { lat: 6.1512, lng: 101.2145 },
+    googleMapsUrl: 'https://maps.google.com/?q=Koh+Tuad+Bang+Lang+Yala'
   },
   {
-    id: '7',
+    id: '6',
     name: {
-      th: 'วัดชลธาราสิงเห (วัดพิทักษ์แผ่นดินไทย)',
-      en: 'Wat Chonthara Singhe',
-      ms: 'Wat Chonthara Singhe'
+      th: 'หมู่บ้านจุฬาภรณ์พัฒนา 12',
+      en: 'Chulabhorn Pattana 12 Village',
+      ms: 'Kampung Chulabhorn Pattana 12'
     },
     province: {
       th: 'นราธิวาส',
@@ -217,44 +184,44 @@ export const travelPlaces: TravelPlace[] = [
       ms: 'Narathiwat'
     },
     description: {
-      th: 'วัดเก่าแก่งดงามริมแม่น้ำตากใบ ซึ่งเคยเป็นดินแดนต่อรองประวัติศาสตร์เขตแดนไทย-มลายู มีพระอุโบสถศิลปะสถาปัตยกรรมผสมผสานอันเลอค่า',
-      en: 'A historic temple by the Tak Bai river that played a key role in the Siam-Malaya border negotiation. Rich in magnificent fusion art.',
-      ms: 'Kuil bersejarah di tepi sungai Tak Bai yang memainkan peranan penting dalam rundingan sempadan Siam-Malaya. Kaya dengan seni gabungan.'
+      th: 'ชุมชนท่องเที่ยวเชิงอนุรักษ์และประวัติศาสตร์พรรคคอมมิวนิสต์มลายาในอดีต ซ่อนตัวกลางป่าดิบชื้นฮาลาบาลา มีกิจกรรมเดินป่าศึกษาธรรมชาติ ชมต้นกะพงยักษ์พันปี และพิพิธภัณฑ์ประวัติศาสตร์ที่น่าตื่นตาตื่นใจ',
+      en: 'A historic eco-tourism village of former Malayan Communist Party members hidden in the Hala-Bala rainforest. Hike to see a giant 1,000-year-old tree and explore fascinating military relics.',
+      ms: 'Kampung eko-pelancongan bersejarah bekas anggota Parti Komunis Malaya yang tersembunyi di dalam hutan Hala-Bala. Nikmati trekking hutan untuk melihat pokok gergasi berusia 1,000 tahun.'
     },
-    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80', // Beautiful riverside temple style
-    category: 'religion',
-    isHalal: false,
+    image: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=800&q=80',
+    category: 'culture',
+    isHalal: true,
     isCDT: true,
-    dressCode: 'polite',
+    dressCode: 'casual',
     openingHours: {
       th: '08:00 - 17:00 น.',
       en: '08:00 AM - 05:00 PM',
       ms: '08:00 PG - 05:00 PTG'
     },
     rating: 4.8,
-    reviewsCount: 340,
-    safetyIndex: 'medium',
-    coordinates: { lat: 6.2573, lng: 102.0514 },
-    googleMapsUrl: 'https://maps.google.com/?q=Wat+Chonthara+Singhe+Tak+Bai'
+    reviewsCount: 154,
+    safetyIndex: 'high',
+    coordinates: { lat: 5.8642, lng: 101.8105 },
+    googleMapsUrl: 'https://maps.google.com/?q=Chulabhorn+Pattana+12+Narathiwat'
   },
   {
-    id: '8',
+    id: '7',
     name: {
-      th: 'อุทยานแห่งชาติบูโด-สุไหงปาดี',
-      en: 'Budo-Sungai Padi National Park',
-      ms: 'Taman Negara Budo-Sungai Padi'
+      th: 'อุทยานแห่งชาติน้ำตกทรายขาว',
+      en: 'Sai Khao Waterfall National Park',
+      ms: 'Taman Negara Air Terjun Sai Khao'
     },
     province: {
-      th: 'นราธิวาส',
-      en: 'Narathiwat',
-      ms: 'Narathiwat'
+      th: 'ปัตตานี',
+      en: 'Pattani',
+      ms: 'Pattani'
     },
     description: {
-      th: 'สัมผัสผืนป่าดงดิบชื้น แหล่งอาศัยของใบไม้สีทอง (ย่านดาโอ๊ะ) พืชพรรณมหัศจรรย์ที่มีใบเป็นสีทองอร่ามงดงาม มีน้ำตกปาโจที่ตระการตา',
-      en: 'Explore the tropical rainforest, home to the Golden Leaves (Yan Da Oh), a unique golden vine, and the spectacular Pajo Waterfall.',
-      ms: 'Terokai hutan hujan tropika, rumah kepada Daun Emas (Yan Da Oh), pokok menjalar emas yang unik, dan Air Terjun Pajo yang menakjubkan.'
+      th: 'สายน้ำตกใสเย็นไหลลัดเลาะผ่านซอกหินแกรนิตขนาดใหญ่ รายล้อมด้วยป่าธรรมชาติร่มรื่น และมีจุดชมวิวเขารังเกียบอันสวยงามยอดนิยมในท้องถิ่นสำหรับการชมทะเลหมอกและแสงแดดยามเช้า',
+      en: 'A crystal-clear waterfall flowing through massive granite boulders in a lush tropical forest. Features a scenic local trek to Khao Rang Kiab viewpoint for panoramic morning mist views.',
+      ms: 'Air terjun jernih yang mengalir melalui batuan granit besar di dalam hutan tropika yang rimbun. Mempunyai laluan trekking tempatan ke puncak pemandangan kabus pagi.'
     },
-    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80', // Golden leaves/rainforest waterfall
+    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
     category: 'nature',
     isHalal: true,
     isCDT: false,
@@ -265,10 +232,43 @@ export const travelPlaces: TravelPlace[] = [
       ms: '08:00 PG - 04:30 PTG'
     },
     rating: 4.6,
-    reviewsCount: 220,
-    safetyIndex: 'medium',
-    coordinates: { lat: 6.2234, lng: 101.6543 },
-    googleMapsUrl: 'https://maps.google.com/?q=Budo+Sungai+Padi+National+Park'
+    reviewsCount: 178,
+    safetyIndex: 'high',
+    coordinates: { lat: 6.6491, lng: 101.1472 },
+    googleMapsUrl: 'https://maps.google.com/?q=Sai+Khao+Waterfall+Pattani'
+  },
+  {
+    id: '8',
+    name: {
+      th: 'ป่าพรุโต๊ะแดง นราธิวาส',
+      en: 'To Daeng Peat Swamp Forest',
+      ms: 'Hutan Paya Gambut To Daeng'
+    },
+    province: {
+      th: 'นราธิวาส',
+      en: 'Narathiwat',
+      ms: 'Narathiwat'
+    },
+    description: {
+      th: 'ผืนป่าพรุดั้งเดิมและสมบูรณ์ที่สุดผืนสุดท้ายของประเทศไทย เดินทอดน่องไปตามสะพานไม้ลัดเลาะสายน้ำสีชา ชมความหลากหลายทางชีวภาพอันน่าอัศจรรย์ของพันธุ์ไม้โบราณและนกป่าหายาก',
+      en: 'The very last pristine peat swamp forest in Thailand. Walk along a wooden elevated canopy bridge over amber-colored waters, exploring rare primeval flora and wild birds.',
+      ms: 'Hutan paya gambut dara terakhir dan paling terpelihara di Thailand. Berjalan di atas jambatan kayu tinggi melintasi air berwarna ambar sambil menerokai flora purba.'
+    },
+    image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=800&q=80',
+    category: 'nature',
+    isHalal: true,
+    isCDT: false,
+    dressCode: 'casual',
+    openingHours: {
+      th: '08:30 - 16:30 น.',
+      en: '08:30 AM - 04:30 PM',
+      ms: '08:30 PG - 04:30 PTG'
+    },
+    rating: 4.7,
+    reviewsCount: 121,
+    safetyIndex: 'high',
+    coordinates: { lat: 6.0792, lng: 101.9644 },
+    googleMapsUrl: 'https://maps.google.com/?q=To+Daeng+Peat+Swamp+Forest'
   }
 ];
 
