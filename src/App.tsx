@@ -32,8 +32,16 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans antialiased">
+    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans antialiased relative">
       
+      {/* Dynamic Colorful Background Gradients (Mesh Glows) */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] rounded-full bg-emerald-400/15 blur-[120px] animate-pulse" />
+        <div className="absolute top-[20%] -right-[10%] w-[60%] h-[60%] rounded-full bg-amber-400/15 blur-[150px]" />
+        <div className="absolute -bottom-[10%] left-[20%] w-[55%] h-[55%] rounded-full bg-indigo-400/15 blur-[130px]" />
+        <div className="absolute top-[50%] left-[40%] w-[45%] h-[45%] rounded-full bg-rose-400/10 blur-[110px] animate-pulse" />
+      </div>
+
       {/* 1. STICKY MULTILINGUAL HEADER */}
       <Header
         currentLang={currentLang}
@@ -43,7 +51,7 @@ export default function App() {
       />
 
       {/* 2. CORE VIEW SWITCHER CONTAINER */}
-      <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 w-full">
+      <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 w-full relative z-10">
         {activeTab === 'home' && (
           <HomeView
             currentLang={currentLang}
@@ -80,50 +88,50 @@ export default function App() {
       </main>
 
       {/* 3. POLISHED COMPREHENSIVE FOOTER */}
-      <footer className="bg-slate-950 border-t border-slate-900 text-slate-400 mt-16" id="app-footer">
+      <footer className="bg-white border-t border-slate-200 text-slate-600 mt-16 relative z-10" id="app-footer">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
           
           {/* Top Row: School branding and mission */}
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-b border-slate-900 pb-8">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-b border-slate-200 pb-8">
             <div className="space-y-2 max-w-2xl">
-              <div className="flex items-center space-x-2 text-white">
-                <ShieldCheck className="w-5 h-5 text-emerald-400" />
+              <div className="flex items-center space-x-2 text-slate-900">
+                <ShieldCheck className="w-5 h-5 text-emerald-600" />
                 <span className="font-bold text-base tracking-tight">Southern SafePass</span>
-                <span className="text-[10px] bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded font-mono font-bold">
+                <span className="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded font-mono font-bold">
                   Pegasus Team
                 </span>
               </div>
-              <p className="text-xs text-slate-400 leading-relaxed font-medium">
+              <p className="text-xs text-slate-500 leading-relaxed font-medium">
                 {footerLabel[currentLang]}
               </p>
             </div>
 
             {/* Quick stats / highlights */}
             <div className="flex flex-wrap gap-4" id="footer-badges">
-              <div className="bg-slate-900/50 border border-slate-900 px-3 py-1.5 rounded-xl text-center">
-                <p className="text-[10px] text-slate-500 uppercase">School Location</p>
-                <p className="text-xs font-bold text-slate-300">ยะลา / Yala</p>
+              <div className="bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-xl text-center">
+                <p className="text-[10px] text-slate-400 uppercase font-semibold">School Location</p>
+                <p className="text-xs font-bold text-slate-700">ยะลา / Yala</p>
               </div>
-              <div className="bg-slate-900/50 border border-slate-900 px-3 py-1.5 rounded-xl text-center">
-                <p className="text-[10px] text-slate-500 uppercase">Mascot</p>
-                <p className="text-xs font-bold text-slate-300">Pegasus 🦄</p>
+              <div className="bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-xl text-center">
+                <p className="text-[10px] text-slate-400 uppercase font-semibold">Mascot</p>
+                <p className="text-xs font-bold text-slate-700">Pegasus 🦄</p>
               </div>
             </div>
           </div>
 
           {/* Bottom Row: copyright and tech credentials */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-            <p className="text-slate-500 text-center sm:text-left">
+            <p className="text-slate-400 text-center sm:text-left">
               {copyRightLabel[currentLang]}
             </p>
 
-            <div className="flex items-center space-x-4 text-slate-600 font-mono text-[10px]">
+            <div className="flex items-center space-x-4 text-slate-400 font-mono text-[10px]">
               <span>VITE + REACT 19</span>
               <span>•</span>
               <span>GEMINI AI ENGINE</span>
               <span>•</span>
               <span className="flex items-center gap-1">
-                <Globe className="w-3.5 h-3.5" />
+                <Globe className="w-3.5 h-3.5 text-slate-500" />
                 3 LANGUAGES (TH/EN/MY)
               </span>
             </div>
